@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/brands.min.css" integrity="sha512-9YHSK59/rjvhtDcY/b+4rdnl0V4LPDWdkKceBl8ZLF5TB6745ml1AfluEU6dFWqwDw9lPvnauxFgpKvJqp7jiQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Pra-7</title>
+</head>
+<body>
+    <div class="main-cnt">
+        <!-- <div class="header">Weather Forecast</div> -->
+        <div class="inp-cnt">
+            <label for="input" class="label">Enter City : </label>
+            <input type="text" class="cityinput" id="input">
+            <button class="button">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+        </div>
+    <div class="box">
+        <div class="container">
+            <div class="nevbar">
+                <div class="navcont city">
+                    City name
+                </div>
+                <div class="navcont time">Country</div>
+            </div>
+            <div class="contai-body">
+                <class class="temp">
+                    <div class="temp-no">
+                        Temp *c
+                    </div>
+                    <div class="wetstst">
+                        description
+                    </div>
+                </class>
+            </div>
+            <div class="footer">
+                <div class="footcont extra">
+                    <ul>
+                        <li class="list-item">
+                            <i class="fa-solid fa-wind icons"></i>
+                            <div class="data wind">
+                                Wind km/s
+                            </div>
+                        </li>
+                        <li class="list-item">
+                            <i class="fa-solid fa-droplet icons"></i>
+                            <div class="data humidity">
+                                Huminiti %
+                            </div>
+                        </li>
+                        <li class="list-item">
+                            <i class="fa-regular fa-sun icons"></i>
+                            <div class="data visibility">
+                                Visibility h
+                            </div>
+                        </li>    
+                    </ul>
+                </div>
+                <div class="footcont image">
+                    <img src="" class="icon">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script type="module" src="index.js"></script>
+</body>
+</html>

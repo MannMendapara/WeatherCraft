@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    height: 8vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 5px;
+    text-shadow: 0 0 3px black;
+}
+
+.main-cnt {
+    height: 100vh; /* Make the body fill the entire viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    flex-direction: column;
+}
+
+.box {
+    height: 350px;
+    width: 370px;
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    padding: 1px;
+}
+
+.nevbar{
+    height: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.navcont{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-top: 15px;
+}
+
+.contai-body{
+    height: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer{
+    margin-top: 5px;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+.footcont {
+    width: 50%;
+    margin-left: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.image {
+    height: 100%;
+    font-size: 1rem;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.list-item {
+    margin-bottom: 13px;
+    display: flex;
+    justify-content: left;
+}
+
+.temp-no {
+    margin-bottom: 6px;
+    font-size: 3rem;
+}
+
+.wetstst {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.icons{
+    font-size: 1.2rem;
+}
+
+.data{
+    margin-left: 13px;
+    font-size: 1.1rem;
+}
+
+::placeholder{
+    color: black;
+    opacity: 50%;
+}
+
+.cityinput {
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black;
+    font-size: 15px;
+    margin-bottom: 10px;
+    background-color: grey;
+    margin-left: 4px;
+}
+
+.inp-cnt {
+    display: flex;
+    justify-content: left;
+    margin-bottom: 5px;
+}
+
+.label{
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-shadow: 0 0 1px white;
+}
+
+.button{
+    background-color: grey;
+    border: none;
+    margin-left: 5px;
+    margin-bottom: 2px;
+    font-size: 1.1rem;
+}
+
+.button :hover {
+    cursor: pointer;
+}
+
+.icon{
+    width: 60%;
+}
